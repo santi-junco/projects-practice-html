@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header{
+    background-image: url(ilustracion-colorida-programador-trabajando_23-2148281410.avif);
+    width: 100%;
+    height: 100vh;
+    background-position: right;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.nav img {
+    max-width: 100%;
+    height: 70px;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li{
+    list-style: none;
+    margin: 20px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #191955;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.menu ul li a:hover{
+    color: black;
+}
+
+.btn{
+    color: #191955;
+    margin: 10px;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 400;
+    border: 1px solid #fe8678;
+    border-radius: 5%;
+    padding: 10px 25px;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    color: #fff;
+    background: #fe8678;
+    transition: .5s;
+}
+
+.main{
+    position: absolute;
+    color: #191955;
+    left: 8%;
+    top: 30%;
+}
+
+.main h1{
+    text-transform: capitalize;
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+.main h1 span{
+    color: #fe8678;
+}
+
+.main h4{
+    text-transform: capitalize;
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+.main p{
+    color: #191955;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 10px 0 100px 0;
+}
+
+.main h3{
+    color: #191955;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.icon i{
+    color: #191955;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.icon i:hover{
+    color: #fe8678;
+    transition: .2s;
+}
