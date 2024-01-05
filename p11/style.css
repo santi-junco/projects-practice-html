@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background: #07252d;
+}
+
+h2{
+    position: relative;
+    font-size: 2em;
+    letter-spacing: 15px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0e3742;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+    outline: none;
+    line-height: 0.70em;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate{
+    0%, 10%, 15%, 20%, 50%, 60%, 70%, 90%{
+        color: #0e3742;
+        text-shadow: none;
+    }
+
+    10.1%, 15.1%, 20.1%, 50.1%, 60.1%, 70.1%, 90.1%, 100%{
+        color: #fff;
+        text-shadow: 0 0 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 160px #03bcf4;
+    }
+}
